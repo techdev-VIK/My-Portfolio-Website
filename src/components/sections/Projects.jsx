@@ -22,12 +22,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://my-radiance-app.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/My-Radiance-App" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
@@ -51,12 +51,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://tracker-crm.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/TrackerCRM" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
@@ -79,12 +79,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://recipe-organiser-mu.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/Recipe-Organiser" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
@@ -107,12 +107,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://taskwhizapp.netlify.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/TaskWhiz" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
@@ -135,12 +135,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://meetup-web-app-xi.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/Meetup-App" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
@@ -163,12 +163,12 @@ const Projects = () => {
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
                         <a href="https://halo-clock.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Project →
+                            Live Demo →
                         </a>
 
 
                         <a href="https://github.com/techdev-VIK/Halo-Clock" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
+                            Source Code →
                         </a>
                         </div>
 
