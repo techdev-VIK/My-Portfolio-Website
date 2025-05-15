@@ -27,7 +27,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/My-Radiance-App" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
@@ -56,7 +56,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/TrackerCRM" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
@@ -84,7 +84,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/Recipe-Organiser" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
@@ -112,7 +112,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/TaskWhiz" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
@@ -140,7 +140,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/Meetup-App" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
@@ -168,7 +168,7 @@ const Projects = () => {
 
 
                         <a href="https://github.com/techdev-VIK/Halo-Clock" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Source Code →
+                            View Code →
                         </a>
                         </div>
 
