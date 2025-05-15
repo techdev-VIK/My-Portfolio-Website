@@ -11,16 +11,10 @@ const Contact = () => {
         message: ""
     })
 
-    const SERVICE_ID = "service_g1s6a2g";
-
-    const TEMPLATE_ID = "template_2ptu9ok";
-
-    const PUBLIC_KEY = "nnxVVS7pzFWA5rw3H";
-
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY).then((result) => {
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then((result) => {
             alert("Message Sent Successfully!");
             setFormData({name: "", email:"", message: ""});
         }).catch(() => alert("Oops! Something went wrong. Please try again."));
