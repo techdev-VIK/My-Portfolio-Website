@@ -97,7 +97,7 @@ const Projects = () => {
                         <p className="text-gray-400 mb-4">
                         TaskWhiz – Your Simple To-Do App. Stay organized and manage your tasks effortlessly with TaskWhiz. Whether it's work or personal to-dos, TaskWhiz helps you stay on top of everything.</p>
                         <div className="flex flex-wrap gap-2">
-                            {["React", "Bootstrap", "Node.js", "Vite", "Express.js", "MongoDB"].map((tech, key) => (
+                            {["React", "Bootstrap", "Vite"].map((tech, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3  rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all">
                                     {tech}
                                 </span>

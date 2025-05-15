@@ -12,7 +12,7 @@ const Home = () => {
                 </p>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    Currently, I'm working with FIS (American Fintech) as an Analyst. I have a total experience of 4+ years and have hands on expertise in handling backend and frontend systems and developing excellent solutions.
+                    Currently, I'm working with FIS (American Fintech) as an Analyst. I have a total experience of 4+ years and have hands on experience in handling backend and frontend systems and developing excellent solutions.
                 </p>
 
                 <div className="flex justify-center space-x-4">
