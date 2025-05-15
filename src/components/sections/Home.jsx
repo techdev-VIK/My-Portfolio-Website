@@ -8,7 +8,11 @@ const Home = () => {
                 </h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    I'm a full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.
+                    I'm a passionate full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.
+                </p>
+
+                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    Currently, I'm working with FIS (American Fintech) as an Analyst. I have a total experience of 4+ years and have hands on expertise in handling systems and developing solutions.
                 </p>
 
                 <div className="flex justify-center space-x-4">
