@@ -30,7 +30,7 @@ const LoadingScreen = ({onComplete}) => {
 
         <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
 
-            <div className="mb-4 text-4xl font-mono font-bold">
+            <div className="mb-4 text-4xl font-mono font-bold text-center">
                 {text}<span className="animate-blank ml-1">| </span>
             </div>
                 <div className="w-[300px] h-[10px] bg-gray-800 rounded relative overflow-hidden">
