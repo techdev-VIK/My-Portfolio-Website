@@ -17,7 +17,7 @@ const Navbar = ({menuOpen, setMenuOpen}) => {
                 
 
             {/* Icon for mobile devices */}
-            <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
+            <div className="w-8 h-6 relative cursor-pointer text-3xl z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                 &#9776;
             </div>
 
