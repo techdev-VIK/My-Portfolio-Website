@@ -19,7 +19,7 @@ const About = () => {
 
 
                 <div className="p-6 rounded-xl border border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                    <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto mt-6">Passionate developer with experience in building scalable web applications and creating innvoative solutions.</p>
+                    <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto mt-6">Passionate software developer with experience in building scalable web applications and creating innvoative solutions.</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -88,34 +88,54 @@ const About = () => {
                             <div className="p-6 rounded-xl border border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                                 <h3 className="text-xl font-bold mb-5"> 💼 Work Experience</h3>
 
-                                <div className="space-y-4 text-gray-300">
-                                    <div>
-                                        <h4 className="font-semibold">Implementation Conversion Analyst II at FIS (2024 - Present)</h4>
+                                <ul className="list-disc list-inside text-gray-300 space-y-1">
+                                    <li>
+                                        <strong>Implementation Conversion Analyst II at FIS (2024 - Present)</strong>
 
-                                        <p>Developed and maintained lockboxes for financial institutions across USA.</p>
-                                       <p>Implemented lockbox solutions for enterprise clients by coordinating with cross-functional teams.</p>
-                                       <p>Analyzed customer data and performed custom data mapping using SQL, Excel, and internal tools.</p>
-                                    </div>
+                                        <div className="mt-3">
+                                        <p className="mb-2"> - Developed and implemented lockbox payment process improvement solutions for a major retail chains.</p>
 
+                                       <p className="mb-2"> - Implemented and maintained lockbox solutions for enterprise clients by coordinating with cross-functional teams.</p>
 
-                                    <div>
-                                        <h4 className="font-semibold">Implementation Conversion Analyst I at FIS (2022 - 2024)</h4>
+                                       <p className="mb-2"> - Analyzed customer data and performed custom data mapping using SQL, JavaScript, and internal tools.</p>
 
-                                       <p>Handled escalations, provided technical support, and created clear documentation for issue tracking.</p>
-
-                                       <p>Collaborated with engineering teams for onboarding, issue resolution, and product enhancement feedback.</p>
-
-                                        <p>Participated in internal innovation competitions and worked on rapid development of ideas.</p>
-
-                                    </div>
+                                       <p className="mb-2"> - Facilitated the development of a suite of custom software applications for financial services firms.</p>
+                                        </div>
+                                    </li>
 
 
-                                    <div>
-                                        <h4 className="font-semibold">IT Trainee at FIS (2021 - 2022)</h4>
+                                    <li className="mt-6">
+                                        <strong>Implementation Conversion Analyst I at FIS (2022 - 2024)</strong>
 
-                                        <p>Developed and maintained lockboxes for US financial institutions.</p>
-                                    </div>
-                                </div>
+                                       <div className="mt-3">
+
+                                        <p className="mb-2"> - Devloped functionalities for backend and frontend of company products resulting in enhanced client satisfaction.</p>
+
+                                        <p className="mb-2"> - Handled escalations, provided technical solutions, and created clear documentation for issue tracking.</p>
+
+                                       <p className="mb-2"> - Collaborated with engineering teams for onboarding, issue resolution, and product enhancement feedback.</p>
+
+                                        <p className="mb-2"> - Participated in internal innovation competitions and worked on rapid development of ideas.</p>
+                                       </div>
+
+                                    </li>
+
+
+                                    <li className="mt-6">
+                                        <strong>IT Trainee at FIS (2021 - 2022)</strong>
+
+                                        <div className="mt-3">
+                                            <p className="mb-2"> - Analyze business processes and develop solutions using Python to improve efficiency.</p>
+
+                                            <p className="mb-2"> - Provide technical assistance to stakeholders throughout the implementation process.</p>
+
+                                            <p className="mb-2"> - Configure software solutions to meet business requirements.</p>
+
+                                            <p className="mb-2"> - Test software solutions to ensure that they meet the business requirements.</p>
+
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                     </div>
             </div>
