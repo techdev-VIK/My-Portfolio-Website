@@ -149,34 +149,6 @@ const Projects = () => {
 
                     </div>
 
-
-
-                     <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-4">Halo Clock App</h3>
-                        <p className="text-gray-400 mb-4">
-                        Halo Clock is a clever clock app which works like a normal watch and a stopwatch at the same time..</p>
-                        <div className="flex flex-wrap gap-2">
-                            {["React", "CSS", "Vite"].map((tech, key) => (
-                                <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3  rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-
-                        <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
-
-                        <a href="https://halo-clock.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            Live Demo →
-                        </a>
-
-
-                        <a href="https://github.com/techdev-VIK/Halo-Clock" target="_blank" className="border border-blue-600/90 text-blue-500 py-2 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            View Code →
-                        </a>
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
             </RevealOnScroll>
