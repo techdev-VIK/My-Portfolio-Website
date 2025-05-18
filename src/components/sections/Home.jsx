@@ -11,11 +11,11 @@ const Home = () => {
                     Hi, I'm Vikartan Sood
                 </h1>
 
-                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
                     I'm a passionate full-stack developer who loves crafting clean, scalable web applications. My goal is to build solutions that offer both exceptional performance and a delightful user experience.
                 </p>
 
-                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
                     Currently, I'm working with FIS as an Analyst. I have a total experience of 4+ years and have hands on experience in handling backend and frontend systems and developing excellent solutions.
                 </p>
 

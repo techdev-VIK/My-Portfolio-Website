@@ -75,12 +75,20 @@ const About = () => {
                                 <h3 className="text-xl font-bold mb-5"> 🏫 Education</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2">
                                     <li>
-                                        <strong className="text-gray-300">Bachelor of Technology (Hons.) in Computer Science - </strong>
-                                         Lovely Professional University, Punjab (2016 - 2020)
+                                        <strong className="text-gray-300">Bachelor of Technology (Hons.) in Computer Science and Engineering</strong>
+                                         
+
+                                        <div className="mt-1 mx-4">
+                                        <p className="mb-2"> - Lovely Professional University, Punjab (2016 - 2020)</p>
+                                        </div>
                                       
                                     </li>
                                     <li>
-                                        <strong className="text-gray-300">Relevant Coursework:</strong> Data Structures, Web Development, Data Science
+                                        <strong className="text-gray-300">Relevant Coursework:</strong>
+
+                                        <div className="mt-1 mx-4">
+                                        <p className="mb-2"> - Web Development, Operating Systems, Networking, Databases, Data Structures, Data Science</p>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -92,7 +100,7 @@ const About = () => {
                                     <li>
                                         <strong className="text-gray-300">Implementation Conversion Analyst II at FIS (2024 - Present)</strong>
 
-                                        <div className="mt-3">
+                                        <div className="mt-1 mx-4">
                                         <p className="mb-2"> - Developed and implemented lockbox payment process improvement solutions for a major retail chains.</p>
 
                                        <p className="mb-2"> - Implemented and maintained lockbox solutions for enterprise clients by coordinating with cross-functional teams.</p>
@@ -104,10 +112,10 @@ const About = () => {
                                     </li>
 
 
-                                    <li className="mt-6">
+                                    <li className="mt-6 mx-4">
                                         <strong className="text-gray-300">Implementation Conversion Analyst I at FIS (2022 - 2024)</strong>
 
-                                       <div className="mt-3">
+                                       <div className="mt-1">
 
                                         <p className="mb-2"> - Devloped functionalities for backend and frontend of company products resulting in enhanced client satisfaction.</p>
 
@@ -121,10 +129,10 @@ const About = () => {
                                     </li>
 
 
-                                    <li className="mt-6">
+                                    <li className="mt-6 mx-4">
                                         <strong className="text-gray-300">IT Trainee at FIS (2021 - 2022)</strong>
 
-                                        <div className="mt-3">
+                                        <div className="mt-1">
                                             <p className="mb-2"> - Analyze business processes and develop solutions using Python to improve efficiency.</p>
 
                                             <p className="mb-2"> - Provide technical assistance to stakeholders throughout the implementation process.</p>

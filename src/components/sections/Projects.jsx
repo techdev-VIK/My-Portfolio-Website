@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
                     <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Radiance  E-commerce App</h3>
-                        <p className="text-gray-400 mb-4">An e-commerce web application with product listings for beauty and skincare products. Includes cart, checkout flow, and user login system.</p>
+                        <p className="text-gray-400 mb-4">An e-commerce full-stack app built with React, Bootstrap, Node.js, Express, and MongoDB includes product listings for beauty and skincare products. Features includes cart, favourites, product listing and details, checkout flow, and user login system.</p>
                         <div className="flex flex-wrap gap-2">
                             {["React", "Bootstrap", "Node.js", "Redux Toolkit", "JWT", "Vite", "Express.js", "MongoDB"].map((tech, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3  rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all">
@@ -40,9 +40,8 @@ const Projects = () => {
                     <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Tracker CRM App</h3>
                         <p className="text-gray-400 mb-4">
-                        A lead management CRM system with features to manage leads across lifecycle stages. Supports
-                        assigning sales agents, adding comments/updates, login authentication, and state management using Redux
-                        Toolkit.</p>
+                        A lead management CRM system built with React, Bootstrap, Node.js, Express, and MongoDB. This app has features to manage leads across lifecycle stages. Supports
+                        assigning sales agents, creating new leads, adding comments/updates and data visualization.</p>
                         <div className="flex flex-wrap gap-2">
                             {["React", "Bootstrap", "Node.js", "Vite", "Express.js", "MongoDB", "Chart.js"].map((tech, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3  rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition-all">
