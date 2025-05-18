@@ -2,8 +2,11 @@ import { useState } from "react";
 import RevealOnScroll from "../RevealOnScroll";
 
 import emailjs from 'emailjs-com';
+import { toast } from "react-toastify";
 
 const Contact = () => {
+
+    const [isLaoding, setLoading] = useState(false);
 
     const [formData, setFormData] = useState({
         name: "",
@@ -13,11 +16,16 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoading(true);
 
         emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then((result) => {
-            alert("Message Sent Successfully!");
+            toast.info("Message Sent Successfully!");
             setFormData({name: "", email:"", message: ""});
-        }).catch(() => alert("Oops! Something went wrong. Please try again."));
+        })
+        .catch(() => toast.error("Oops! Something went wrong. Please try again."))
+        .finally(() => {
+            setLoading(false)
+        })
     };
 
     return (
@@ -60,7 +68,12 @@ const Contact = () => {
                             ></textarea>
                         </div>
 
-                        <button type="submit" className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(50, 130, 246, 0.4)] hover:cursor-pointer">Send Message</button>
+                        <button type="submit" 
+                        className={`w-full text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(50, 130, 246, 0.4)] hover:cursor-pointer ${!isLaoding ? "bg-blue-500" : "bg-blue-400/80"}`}
+                        disabled={isLaoding}
+                        >
+                        {isLaoding ? "Sending..." : "Send Message"}
+                        </button>
                     </form>
                 </div>
 
