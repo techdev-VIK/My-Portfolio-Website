@@ -11,7 +11,7 @@ const Projects = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-                    <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    <div className="flex flex-col justify-between p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Radiance  E-commerce App</h3>
                         <p className="text-gray-400 mb-4">An e-commerce full-stack app built with React, Bootstrap, Node.js, Express, and MongoDB includes product listings for beauty and skincare products. Features includes cart, favourites, product listing and details, checkout flow, and user login system.</p>
                         <div className="flex flex-wrap gap-2">
@@ -122,7 +122,7 @@ const Projects = () => {
 
 
 
-                    <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    {/* <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-4">Meetup App</h3>
                         <p className="text-gray-400 mb-4">
                         A React-based Meetup app showcasing various online and offline events. Users can browse event listings and view detailed information for each meetup.</p>
@@ -146,7 +146,7 @@ const Projects = () => {
                         </a>
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
