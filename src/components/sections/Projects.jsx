@@ -67,7 +67,7 @@ const Projects = () => {
 
 
                     <div className="flex flex-col justify-between p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-4">Recipe Organiser App</h3>
+                        <h3 className="text-xl font-bold mb-4">FlavorNest</h3>
                         <p className="text-gray-400 mb-4">
                         A full-stack Recipe Organizer app built with React, Bootstrap, Node.js, Express, and MongoDB. It allows users to add new recipes, view detailed lists of ingredients and cooking instructions, and delete recipes as needed. The app offers a clean, responsive UI for easy recipe management and storage.</p>
                         <div className="flex flex-wrap gap-2">
@@ -80,7 +80,7 @@ const Projects = () => {
 
                         <div className="flex justify-around space-x-4 items-center mt-8 mb-2">
 
-                        <a href="https://recipe-organiser-mu.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
+                        <a href="https://flavor-nest-t3ik.vercel.app/" target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
                             Live Demo →
                         </a>
 
