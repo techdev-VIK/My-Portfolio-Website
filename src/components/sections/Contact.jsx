@@ -49,7 +49,7 @@ const Contact = () => {
         }else{
             setLoading(true);
             emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then((result) => {
-            toast.info("Message Sent Successfully!");
+            toast.info(result);
             setFormData({name: "", email:"", message: ""});
             setErrors({});
         })
