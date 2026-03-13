@@ -48,8 +48,8 @@ const Contact = () => {
             setErrors(validateErrors);
         }else{
             setLoading(true);
-            emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then((result) => {
-            toast.info(result, "Message Sent Successfully!");
+            emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then(() => {
+            toast.info("Message Sent Successfully!");
             setFormData({name: "", email:"", message: ""});
             setErrors({});
         })
