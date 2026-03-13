@@ -75,11 +75,11 @@ const About = () => {
                                 <h3 className="text-xl font-bold mb-5"> 🏫 Education</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2">
                                     <li>
-                                        <strong className="text-gray-300">Bachelor of Technology (Hons.) in Computer Science and Engineering</strong>
+                                        <strong className="text-gray-300">Bachelor of Technology (Hons.)</strong>
                                          
 
                                         <div className="mt-1 mx-4">
-                                        <p className="mb-2"> - Lovely Professional University, Punjab (2016 - 2020)</p>
+                                        <p className="mb-2"> - Computer Science and Engineering (2016 - 2020)</p>
                                         </div>
                                       
                                     </li>
